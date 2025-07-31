@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Untuk Tanaya Kinania Rahmawati</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+  <style>
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', 'Noto Color Emoji', sans-serif;
+      background: linear-gradient(to right, #e0ffe5, #d0f0ff);
+      height: 100%;
+      overflow: hidden;
+    }
+    .swiper {
+      width: 100%;
+      height: 100vh;
+    }
+    .swiper-slide {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+    }
+    h1 {
+      font-size: clamp(20px, 5vw, 28px);
+      color: #35b77a;
+      margin: 0.5em 0 0.3em;
+    }
+    p {
+      font-size: clamp(14px, 4vw, 16px);
+      line-height: 1.6;
+      color: #333;
+      max-width: 90%;
+      margin: 0.5em auto;
+    }
+    .cute-img {
+      width: 130px;
+      height: auto;
+      margin-bottom: 10px;
+      border-radius: 15px;
+    }
+    button {
+      margin-top: 15px;
+      padding: 10px 20px;
+      font-size: clamp(14px, 4vw, 16px);
+      background-color: #35b77a;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    .response {
+      font-size: clamp(12px, 3vw, 14px);
+      color: #4caf50;
+      margin-top: 15px;
+      display: none;
+    }
+    .emoji-strip {
+      margin-top: 8px;
+      font-size: 3.5vw;
+      animation: floatEmoji 2s infinite ease-in-out alternate;
+    }
+    @keyframes floatEmoji {
+      0% { transform: translateY(0); }
+      100% { transform: translateY(-5px); }
+    }
+    .swiper-pagination-bullet {
+      background: #fff;
+      opacity: 0.6;
+    }
+    .swiper-pagination-bullet-active {
+      background: #35b77a;
+    }
+    .nav-buttons {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+    .audio-controls {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+
+
+  </style>
+</head>
+<body>
+
+  <!-- Audio & Controls -->
+  <audio id="bgMusic" loop>
+    <source src="https://files.catbox.moe/jhl0kd.mp3" type="audio/mp3">
+    Browser tidak mendukung audio.
+  </audio>
+
+  <div class="swiper">
+    <div class="swiper-wrapper">
+
+  <!-- Slide 1 -->
+<div class="swiper-slide">
+  <!-- Audio Controls -->
+  <div class="audio-controls" style="margin-bottom: 10px;">
+    <button onclick="document.getElementById('bgMusic').play()">▶️ Play Lagu</button>
+    <button onclick="document.getElementById('bgMusic').pause()">⏸️ Pause Lagu</button>
+  </div>
+
+  <img src="https://media.tenor.com/sJgMw_2FhycAAAAi/cute-bear.gif" class="cute-img" alt="bear">
+  <h1>Untuk Tanaya Kinania Rahmawati 🐻</h1>
+  <p>Makasih ya wes mau buka web iki. Maaf lek jelek/kurang menarik Makasih juga sek mau baca. semoga kamu suka, daripada aku ngetik long text di wa lebih baik ngene </p>
+  <div class="emoji-strip">🌸🐰💌✨</div>
+  <div class="nav-buttons">
+    <button onclick="swiper.slideNext()">Selanjutnya ➡️</button>
+  </div>
+</div>
+
+      <!-- Slide 2 -->
+      <div class="swiper-slide">
+        <img src="https://media.tenor.com/KvS3sxh4-AwAAAAi/mochi-peach.gif" class="cute-img" alt="mochi">
+        <h1>Terima Kasih</h1>
+        <p>Makasih ya gawe selama iki, kamu ngajari aku cara pacaran padahal aku gatau pacaran tapi awm gelem nerima aku sek an, awm sek mau sabar neng sifatku sg kurang peka makasih juga gawe segala kenangan bahagia, sedih, aku bener bener terimakasih.
+          Maaf juga lek semisal aku banyak nyakitin kamu aku sadar kok lek arek dewe gak tukaran awm gabakal nyakitin dirimu sendiri. seharus e kita gk sama sama saling bertengkar kene iso damai selalu.
+          dari situ aku belajar aku sek gurung siap dadi pacarmu, tapi kamu mesti support koyok aku wes milih awm lapo awm insecure. Tapi ya ncen tekan diriku ae wes ngerasa aku gk iso cocok buatmu.
+          semisal awm punya cowo baru semoga dek e sesuai dengan tipemu/seng kamu pengen, makasih wes banyak ajari hal-hal baru buatku.
+        </p>
+        <div class="emoji-strip">🎂💭🌙🎀</div>
+        <div class="nav-buttons">
+          <button onclick="swiper.slidePrev()">⬅️ Kembali</button>
+          <button onclick="swiper.slideNext()">Selanjutnya ➡️</button>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="swiper-slide">
+        <img src="https://media.tenor.com/KvS3sxh4-AwAAAAi/mochi-peach.gif" class="cute-img" alt="mochi">
+        <h1>Aku minta maaf selama iki </h1>
+        <p>Mungkin kita butuh waktu buat berpisah dan intropeksi diri terutama buat aku. Jujur aku pengen iso bahagiano awm dengan caraku sendiri, tapi malah sering gawe awm kesel sampek awm nyakitin dirimu sendiri. Aku ero perasaanmu, antara ikhlas gak ikhlas lek awm wes ikhlas pasti kabeh sosmedku bakal awm blok koyok mantanmu biyen.</p>
+         Jujur awm bener bener berarti gawe aku, coba aku gk kenal awm aku gabakal iso ubah kebiasaan buruk ku, bener bener awm peris koyok ibuk ku.</p> 
+         Maaf juga kemaren tiba tiba ngirim paket tanpa kondo awm, paket iku sengaja tak gawe kejutan soale awm mau kenal mbek pacaran mbek aku sekitar 6 bulan kene kenal, aku selalu seneng lek iso memberikan hadiah neng awm gak ero kenopo, pokok bener bener seneng.</p>
+        <div class="emoji-strip">🍰💦❤️🍃</div>
+        <div class="nav-buttons">
+          <button onclick="swiper.slidePrev()">⬅️ Kembali</button>
+          <button onclick="swiper.slideNext()">Selanjutnya ➡️</button>
+        </div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="swiper-slide">
+        <img src="https://media.tenor.com/qnNQKCF-skkAAAAi/cute-animal.gif" class="cute-img" alt="animal">
+        <h1>Maaf ya Nay 🙏</h1>
+        <button onclick="showResponse()">Maaf sebesar-besarnya</button>
+        <div class="response" id="responseText">
+          Lek awm wes memaafkan aku, makasih ya awm orang terbaik seng tak temoni.
+        </div>
+        <div class="emoji-strip">🐶🌈💕</div>
+        <div class="nav-buttons" id="nextButton" style="display: none;">
+          <button onclick="swiper.slideNext()">Lanjut ➡️</button>
+        </div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="swiper-slide">
+        <img src="https://media.tenor.com/ZgWiImCwZ4kAAAAi/peach-cat.gif" class="cute-img" alt="letter">
+        <h1>Pesan buat Naya</h1>
+        <p>
+          Untuk Naya, orang yang ngubah kebiasaanku buruk ku.<br><br>
+          Aku sering kecewain kamu, tapi awm tetep gelem maafno aku, gelem bertahan. Aku nyesel wes ngelakoni hal salah terus terusan maaf lek baru sadar.<br><br>
+          Semoga kelak tuhan memberi kesempatan kita ketemu maneh dengan versi terbaik. Lek awm butuh bantuan neng aku awm iso wa aku. Aku bakal berusaha bantu kamu, Jaga pola turumu ya, ojok begadang terus.<br><br>
+          Makasih wes dadi orang penting dek uripku. Makasih ya wes baca sampek akhir.
+        </p>
+        <div class="emoji-strip">📮💗🐱✨</div>
+        <div class="nav-buttons">
+        <button onclick="swiper.slidePrev()">⬅️ Kembali</button>
+        <button onclick="swiper.slideNext()">Selanjutnya ➡️</button>
+        </div>
+      </div>
+            <!-- Slide Video Kenangan -->
+      <div class="swiper-slide">
+        <h1>Video awm unboxing</h1>
+        <div style="width: 90%; max-width: 720px;">
+  <iframe 
+    src="https://drive.google.com/file/d/1l316QFGKNMYkbf5_akuNBS6SPxCFi93D/preview" 
+    width="100%" 
+    height="400" 
+    allow="autoplay" 
+    style="border-radius: 15px; border: none;">
+  </iframe>
+</div>
+        <p>Mesti lek aku nonton video iki bahagia, salah awm buka kado dek ruang tamu bengi bengi iso los ngono, kuarnge gnok suara, sg record ngantuk maleh kemute pas rekam.</p>
+        <div class="emoji-strip">🎬🌈</div>
+        <div class="nav-buttons">
+          <button onclick="swiper.slidePrev()">⬅️ Kembali</button>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      direction: 'horizontal',
+      loop: false,
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+
+    function showResponse() {
+      document.getElementById("responseText").style.display = "block";
+      document.getElementById("nextButton").style.display = "flex";
+    }
+    
+  </script>
+</body>
+</html>
+
